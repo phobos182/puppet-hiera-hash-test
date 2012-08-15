@@ -1,0 +1,2 @@
+puppet-hiera-hash-test
+======================
