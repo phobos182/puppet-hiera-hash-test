@@ -1,0 +1,5 @@
+<% scope.lookupvar('test::params::mykeys').each do |i| -%>
+<%= i %>_value1 = <%= scope.lookupvar('test::params::myhash')[i]['value1'] %>
+<%= i %>_value2 = <%= scope.lookupvar('test::params::myhash')[i]['value2'] %>
+<%= i %>_value3 = <%= scope.lookupvar('test::params::myhash')[i]['value3'] %>
+<% end -%>
